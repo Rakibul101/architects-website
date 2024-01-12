@@ -1,0 +1,40 @@
+@media screen and (max-width:576px){
+    .nav-banner-container{
+        padding: 20px;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .nav-title{
+        font-size: 2rem;
+    }
+    .list{
+        margin-top: 20px;
+    }
+    .list a{
+        margin: 0 auto;
+        padding-right: 10px;
+    }
+    .banner-container{
+        margin-top: 20px;
+    }
+    .banner-items{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    /* main section styles */
+    .feature-container{
+        flex-direction: column;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .text-content{
+        margin-top: 30px;
+    }
+    .text-content p{
+        width: 300px;
+    }
+}
