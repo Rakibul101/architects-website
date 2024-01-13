@@ -25,7 +25,7 @@
         font-size: 2rem;
     }
     /* main section styles */
-    .feature-container{
+    .cards-container{
         flex-direction: column;
     }
     .cards{
@@ -36,5 +36,15 @@
     }
     .text-content p{
         width: 300px;
+    }
+    .feature-container{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .badge{
+        right: 0;
     }
 }
