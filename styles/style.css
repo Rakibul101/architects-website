@@ -157,6 +157,7 @@ main {
     font-weight: 600;
     margin-bottom: 15px;
 }
+
 .badge {
     width: 300px;
     border-radius: 8px;
@@ -168,12 +169,74 @@ main {
     bottom: 90px;
     right: 90px;
 }
-.badge-title{
-    
+
+.badge-title {
+
     font-size: 65px;
     font-weight: 700;
 }
-.badge-description{
+
+.badge-description {
     font-size: 25px;
     font-weight: 500;
+}
+
+/* facts section styles */
+.fact-text {
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.icons-title {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.icons-text {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* sponsor design */
+.sponsor-items {
+    margin-top: 150px;
+}
+
+.sponsor-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsor-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* footer design */
+.footer-container {
+    max-width: 1440px;
+    margin: 100px auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 50px;
+    color: #424242;
+    font-size: 20px;
 }
